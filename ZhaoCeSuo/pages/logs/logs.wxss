@@ -1,0 +1,7 @@
+/* pages/logs/logs.wxss */
+video{
+  width:100%;
+}
+image{
+  width: 100%;
+}

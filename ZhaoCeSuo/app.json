@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/index",
+    "pages/gemes/index",
+    "pages/gemesList/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的第一个小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "color":"#666",
+    "selectedColor":"red",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"厕所",
+        "iconPath":"images/c.png",
+        "selectedIconPath":"images/c1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "笑话",
+        "iconPath": "images/z.png",
+        "selectedIconPath": "images/z1.png"
+      },
+      {
+        "pagePath": "pages/gemes/index",
+        "text": "游戏",
+        "iconPath": "images/yx.png",
+        "selectedIconPath": "images/yx1.png"
+      },
+      {
+        "pagePath": "pages/setting/index",
+        "text": "设置",
+        "iconPath": "images/s.png",
+        "selectedIconPath": "images/s1.png"
+      }
+    ]
+  },
+  "permission":{
+    "scope.userLocation":{
+      "desc":"打开你的GPS获取位置"
+    }
+  }
+}
